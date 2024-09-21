@@ -18,5 +18,6 @@ class lexographic{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         System.out.println(lexicalOrder(n));
+        sc.close();
     }
 }
